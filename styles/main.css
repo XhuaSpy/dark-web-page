@@ -1,69 +1,54 @@
+/* Estilos Generales para toda la página*/
 
-/* Paleta de colores
-        #FBE6E1;
-        #030502;
-        #534336;
-        #FEFCFE;
-        #0E1A16;
-        #64685D;
-        #C7ACBB;
-        #42494E;
-        #372727;
-        #292F25;
-*/
-
-body {
-    background-color: #131512;
-    color: aliceblue;
+:root    {
+    --color-1: #FBE6E1;
+    --color-2: #030502;
+    --color-3 : #534336;
+    --color-4 :#FEFCFE;
+    --color-5 :#0E1A16;
+    --color-6 :#64685D;
+    --color-7 :#C7ACBB;
+    --color-8 :#42494E;
+    --color-9 :#372727;
+    --color-10 :#292F25;
 }
-
-
-#menu {
-    background-color: #0E1A16;
-}
-
-#menu.h1 {
-    color: fff;
-}
-
-/*
-main {
+.body-content {
     width: 60%;
     margin: auto;
     background-color: #141613;
 }
 
-header {
+body {
+    background-color: #131512;
+    color: aliceblue;    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Estilos para los contenidos */
+.body-content header {
+
     height: 2em;
     padding: 10px;
     width: 60%;
     margin: auto;
     background-color: #64685D;
+    margin-bottom: 50px;
 }
 
 .elemento-nav {
     tab-size: 4em;
 }
 
-img {
+.body-content img {
     width: 100%;
 }
 
-a {
+.body-content a {
     color: white;
 }
 
-a::hover {
-    color: red;
-}
-
-footer {
-    height: 2em;
-    padding: 10px;
-    background-color: #64685D;
-}
-
-table {
+.body-content table {
     width: 90%; 
     border-collapse: collapse;
     margin: 2em auto; 
@@ -71,23 +56,64 @@ table {
     color: #FEFCFE; 
 }
 
-th, td {
+.body-content  th, td {
     padding: 15px; 
 }
 
-th {
+.body-content  th {
     background-color: #292F25;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-tr:hover {
+.body-content tr:hover {
     background-color: #372727; 
     cursor: pointer; 
 }
 
-section h2 {
+.body-content  section  h2 {
     text-align: center; 
     margin-bottom: 1em; 
 }
-*/
+
+/* Estilos Específicos para cada plantilla*/
+
+.body-menu {
+    background-color: var(--color-2);
+}
+
+.body-menu h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.body-menu-ul {
+    text-decoration: none;
+    list-style: none;
+    color: #FBE6E1;
+}
+
+.body-menu-ul a {
+    text-decoration: dotted;
+    color: var(--color-1);
+}
+
+.body-menu-ul a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* ************************** */
+
+.body-header {
+    background-color: var(--color-6);
+}
+
+.body-header>a {
+    color:#030502;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 900;
+}
+ 
