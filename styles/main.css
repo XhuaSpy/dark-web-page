@@ -17,6 +17,16 @@ body {
     color: aliceblue;
 }
 
+
+#menu {
+    background-color: #0E1A16;
+}
+
+#menu.h1 {
+    color: fff;
+}
+
+/*
 main {
     width: 60%;
     margin: auto;
@@ -80,3 +90,4 @@ section h2 {
     text-align: center; 
     margin-bottom: 1em; 
 }
+*/
