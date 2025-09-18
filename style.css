@@ -1,0 +1,82 @@
+
+/* Paleta de colores
+        #FBE6E1;
+        #030502;
+        #534336;
+        #FEFCFE;
+        #0E1A16;
+        #64685D;
+        #C7ACBB;
+        #42494E;
+        #372727;
+        #292F25;
+*/
+
+body {
+    background-color: #131512;
+    color: aliceblue;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    background-color: #141613;
+}
+
+header {
+    height: 2em;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    background-color: #64685D;
+}
+
+.elemento-nav {
+    tab-size: 4em;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+a::hover {
+    color: red;
+}
+
+footer {
+    height: 2em;
+    padding: 10px;
+    background-color: #64685D;
+}
+
+table {
+    width: 90%; 
+    border-collapse: collapse;
+    margin: 2em auto; 
+    background-color: #0E1A16; 
+    color: #FEFCFE; 
+}
+
+th, td {
+    padding: 15px; 
+}
+
+th {
+    background-color: #292F25;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+tr:hover {
+    background-color: #372727; 
+    cursor: pointer; 
+}
+
+section h2 {
+    text-align: center; 
+    margin-bottom: 1em; 
+}
