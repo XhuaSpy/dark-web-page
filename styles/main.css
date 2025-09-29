@@ -247,3 +247,41 @@ body {
         position: sticky;
     }
 }
+
+/* ************************** */
+/* Prueba de imagen */
+/* ************************** */
+.iceberg-container {
+  position: relative;      /* permite posicionar elementos dentro */
+  width: 100%;             /* imagen puede escalar */
+  max-width: 680px;        /* tamaño máximo opcional */
+}
+
+.iceberg-container img {
+  width: 100%;             /* imagen se adapta al tamaño del contenedor */
+  display: block;
+}
+
+.zona {
+  position: absolute;      /* nos permite colocar las zonas sobre la imagen */
+  left: 0;                 /* ocupa todo el ancho */
+  right: 0;
+  cursor: pointer;
+  /* Opcional: para depuración puedes verlas */
+  /* background: rgba(255, 0, 0, 0.2); */
+}
+
+.superficie {
+  top: 3%;                 /* empieza un poco abajo desde arriba */
+  height: 25%;            /* ocupa el 25% del alto de la imagen */
+}
+
+.media {
+  top: 30%;
+  height: 30%;
+}
+
+.profunda {
+  top: 65%;
+  height: 35%;
+}
